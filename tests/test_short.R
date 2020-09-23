@@ -23,7 +23,7 @@ did_multiplegt(df, Y, G, T, D, controls, placebo = placebo, dynamic = dynamic,
 
 cluster = NULL
 recat_treatment = NULL
-trends_nonparam = "nr"
+trends_nonparam = "black"
 trends_lin = NULL
 did_multiplegt(df, Y, G, T, D, controls, placebo = placebo, dynamic = dynamic,
                trends_lin = trends_lin, trends_nonparam = trends_nonparam) #add placebo and dynamics
